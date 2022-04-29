@@ -17,6 +17,7 @@
 		AC0EFB39281B39050024906C /* HoneymoonData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0EFB38281B39050024906C /* HoneymoonData.swift */; };
 		AC0EFB3D281B3A490024906C /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0EFB3C281B3A490024906C /* CardView.swift */; };
 		AC0EFB3F281BDAAD0024906C /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0EFB3E281BDAAC0024906C /* HeaderView.swift */; };
+		AC0EFB41281BE2810024906C /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0EFB40281BE2800024906C /* FooterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		AC0EFB38281B39050024906C /* HoneymoonData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoneymoonData.swift; sourceTree = "<group>"; };
 		AC0EFB3C281B3A490024906C /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		AC0EFB3E281BDAAC0024906C /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		AC0EFB40281BE2800024906C /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				AC0EFB21281A9FC10024906C /* ContentView.swift */,
 				AC0EFB3C281B3A490024906C /* CardView.swift */,
 				AC0EFB3E281BDAAC0024906C /* HeaderView.swift */,
+				AC0EFB40281BE2800024906C /* FooterView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -182,6 +185,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC0EFB39281B39050024906C /* HoneymoonData.swift in Sources */,
+				AC0EFB41281BE2810024906C /* FooterView.swift in Sources */,
 				AC0EFB3F281BDAAD0024906C /* HeaderView.swift in Sources */,
 				AC0EFB36281B38430024906C /* HoneymoonModel.swift in Sources */,
 				AC0EFB22281A9FC10024906C /* ContentView.swift in Sources */,
