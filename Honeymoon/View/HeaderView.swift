@@ -12,6 +12,7 @@ struct HeaderView: View {
     
     @Binding var showGuideView: Bool
     @Binding var showInfoView: Bool
+    let hapics = UINotificationFeedbackGenerator()
     
     
     // MARK: - BODY
@@ -23,7 +24,8 @@ struct HeaderView: View {
             // Button info circle
             Button(action: {
                 // ACTION
-                // print("Information")
+                playSound(sound: "sound-click", type: "mp3")
+                self.hapics.notificationOccurred(.success)
                 self.showInfoView.toggle()
             }) {
                 Image(systemName: "info.circle")
@@ -46,7 +48,8 @@ struct HeaderView: View {
             
             Button(action: {
                 // ACTION
-                // print("Guide")
+                playSound(sound: "sound-click", type: "mp3")
+                self.hapics.notificationOccurred(.success)
                 self.showGuideView.toggle()
             }) {
                 Image(systemName: "questionmark.circle")
