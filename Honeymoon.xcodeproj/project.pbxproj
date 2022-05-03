@@ -25,6 +25,7 @@
 		AC4DD2C9281C2C0E008E954C /* TitleModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4DD2C8281C2C0E008E954C /* TitleModifier.swift */; };
 		AC4DD2CC281C3448008E954C /* ButtonModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4DD2CB281C3448008E954C /* ButtonModifier.swift */; };
 		AC6DC7BD282150C300135FF6 /* SymbolModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6DC7BC282150C300135FF6 /* SymbolModifier.swift */; };
+		AC6DC7C02821A28C00135FF6 /* CardTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6DC7BF2821A28C00135FF6 /* CardTransition.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +48,7 @@
 		AC4DD2C8281C2C0E008E954C /* TitleModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleModifier.swift; sourceTree = "<group>"; };
 		AC4DD2CB281C3448008E954C /* ButtonModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonModifier.swift; sourceTree = "<group>"; };
 		AC6DC7BC282150C300135FF6 /* SymbolModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolModifier.swift; sourceTree = "<group>"; };
+		AC6DC7BF2821A28C00135FF6 /* CardTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardTransition.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		AC0EFB1E281A9FC10024906C /* Honeymoon */ = {
 			isa = PBXGroup;
 			children = (
+				AC6DC7BE2821A27900135FF6 /* Extension */,
 				AC4DD2CA281C2C7D008E954C /* Modifier */,
 				AC0EFB42281BE53C0024906C /* Component */,
 				AC0EFB3B281B39E90024906C /* View */,
@@ -147,6 +150,14 @@
 				AC6DC7BC282150C300135FF6 /* SymbolModifier.swift */,
 			);
 			path = Modifier;
+			sourceTree = "<group>";
+		};
+		AC6DC7BE2821A27900135FF6 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				AC6DC7BF2821A28C00135FF6 /* CardTransition.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -225,6 +236,7 @@
 				AC4DD2C7281C2B4C008E954C /* InfoView.swift in Sources */,
 				AC0EFB41281BE2810024906C /* FooterView.swift in Sources */,
 				AC4DD2C9281C2C0E008E954C /* TitleModifier.swift in Sources */,
+				AC6DC7C02821A28C00135FF6 /* CardTransition.swift in Sources */,
 				AC6DC7BD282150C300135FF6 /* SymbolModifier.swift in Sources */,
 				AC0EFB3F281BDAAD0024906C /* HeaderView.swift in Sources */,
 				AC0EFB36281B38430024906C /* HoneymoonModel.swift in Sources */,
